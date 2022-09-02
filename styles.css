@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(17,13,14,255);
+}
+
+li, a, button{
+    font-family: 'Share Tech', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+h1, p{
+    font-family: 'Share Tech', sans-serif;
+    font-weight: 400;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    margin-right: auto;
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding:  0px 20px;
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color: aqua;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 10px;
+}
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+.content-spotlight{
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    height: 800px;
+    width: 1000px;
+}
+.content-spotlight h1{
+    text-align: center;
+    color: white;
+    padding: 50px 100px;
+}
+
+footer{
+    background-color: white;
+    border-radius: 5px;
+    padding: 50px 50px;
+}
+footer p{
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
