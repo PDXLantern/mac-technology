@@ -23,6 +23,12 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    min-width: 500px;
+    width: auto;
+    max-width: 2000px;
+    height: auto;
+    min-height: 100px;
+    max-height: 200px;
 }
 .logo{
     width: 150px;
@@ -35,7 +41,7 @@ header{
 }
 .nav-links li {
     display: inline-block;
-    padding:  0px 20px;
+    padding:  0px 25px;
 }
 .nav-links li a{
     transition: all 0.3s ease 0s;
@@ -59,8 +65,15 @@ button:hover{
     border: solid 1px rgb(255, 255, 255);
     border-radius: 5px;
     box-shadow: 1px 1px 5px black;
+    min-height: 500px;
     height: 800px;
-    width: 1000px;
+    max-height: 1000px;
+    min-width: 200px;
+    width: auto;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 .content-spotlight h1{
     text-align: center;
